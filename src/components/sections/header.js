@@ -1,9 +1,8 @@
+import {graphql, Link, useStaticQuery} from "gatsby"
+import Img from "gatsby-image"
 import React from "react"
 import styled from "styled-components"
-import { graphql, useStaticQuery, Link } from "gatsby"
-import Img from "gatsby-image"
-
-import { Container } from "../global"
+import {Container} from "../global"
 
 const Header = () => {
   const data = useStaticQuery(graphql`
@@ -18,33 +17,37 @@ const Header = () => {
     }
   `)
 
-  const handleSubmit = event => {
-    event.preventDefault()
-  }
-
   return (
     <HeaderWrapper id="top">
       <Container>
         <Flex>
           <HeaderTextGroup>
-            <Subtitle>Personal Finance</Subtitle>
             <h1>
-              All your money,
+              Buy now and Pay later,
               <br />
-              one account
+              Use anywhere
             </h1>
             <h2>
-              We're building next generation personal finance tools. Sign up to
-              get early access.
+              Use PayBuddy to scan any UPI QR code and pay from your assigned
+      credit limit. Register now for early access.
             </h2>
-            <HeaderForm onSubmit={handleSubmit}>
-              <HeaderInput placeholder="Your email" />
-              <HeaderButton>Early access</HeaderButton>
-            </HeaderForm>
-            <FormSubtitle>
-              Already have a beta account?{" "}
-              <FormSubtitleLink to="/">Sign in</FormSubtitleLink>
-            </FormSubtitle>
+<HeaderForm
+       name="early-access"
+       method="post"
+       data-netlify-honeypot="bot-field"
+       data-netlify="true"
+      >
+        <input type="hidden" name="bot-field" />
+        <input type="hidden" name="early-access" value="early-access" />
+          <HeaderInput
+             type="email"
+                placeholder="Your email"
+         name="email"
+            id="email"
+               required
+        />
+        <HeaderButton>Request Early Access</HeaderButton>
+        </HeaderForm>
           </HeaderTextGroup>
           <ImageWrapper>
             <StyledImage fluid={data.file.childImageSharp.fluid} />
