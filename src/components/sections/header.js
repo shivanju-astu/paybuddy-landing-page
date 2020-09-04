@@ -33,20 +33,19 @@ const Header = () => {
             </h2>
 <HeaderForm
        name="early-access"
-       method="post"
-       data-netlify-honeypot="bot-field"
+       method="POST"
+       netlify-honeypot="bot-field"
        data-netlify="true"
       >
         <input type="hidden" name="bot-field" />
-        <input type="hidden" name="early-access" value="early-access" />
-          <HeaderInput
-             type="email"
-                placeholder="Your email"
-         name="email"
+        <HeaderInput
+            type="email"
+            placeholder="Your email"
+            name="email"
             id="email"
-               required
+            required
         />
-        <HeaderButton>Request Early Access</HeaderButton>
+        <HeaderButton type="submit">Request Early Access</HeaderButton>
         </HeaderForm>
           </HeaderTextGroup>
           <ImageWrapper>
