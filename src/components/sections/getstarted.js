@@ -10,10 +10,10 @@ const GetStarted = () => {
         <HeaderForm
        name="early-access"
        method="POST"
-       netlify-honeypot="bot-field"
        data-netlify="true"
+       id="second"
       >
-        <input type="hidden" name="bot-field" />
+        <input type="hidden" name="form-name" value="early-access" />
           <HeaderInput
             type="email"
             placeholder="Your email"
