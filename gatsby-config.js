@@ -27,7 +27,7 @@ module.exports = {
         short_name: `PayBuddy`,
         start_url: `/`,
         background_color: `#663399`,
-        theme_color: `#006db3`,
+        theme_color: `#061920`,
         display: `minimal-ui`,
         icon: `src/images/paybuddy-icon.png`,
       },
