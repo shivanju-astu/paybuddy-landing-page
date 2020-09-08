@@ -27,9 +27,9 @@ module.exports = {
         short_name: `PayBuddy`,
         start_url: `/`,
         background_color: `#663399`,
-        theme_color: `#663399`,
+        theme_color: `#006db3`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`,
+        icon: `src/images/paybuddy-icon.png`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

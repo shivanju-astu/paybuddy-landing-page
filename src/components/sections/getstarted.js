@@ -59,7 +59,7 @@ const HeaderInput = styled.input`
 `
 
 const HeaderButton = styled.button`
-  font-weight: 500;
+  font-weight: 800;
   font-size: 14px;
   color: white;
   letter-spacing: 1px;
