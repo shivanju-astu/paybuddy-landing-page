@@ -33,6 +33,18 @@ const Features = () => (
             Fully digital account approval process. No paper work required.
           </FeatureText>
         </FeatureItem>
+        <FeatureItem>
+          <FeatureTitle>Get Rewards</FeatureTitle>
+          <FeatureText>
+            Not just better credit score, get exciting rewards on each timely bill payment.
+          </FeatureText>
+        </FeatureItem>
+        <FeatureItem>
+          <FeatureTitle>Automatic Budgeting</FeatureTitle>
+          <FeatureText>
+            Set up budgets for different categories and track them automatically with every purchase.
+          </FeatureText>
+        </FeatureItem>
       </FeaturesGrid>
     </StyledContainer>
   </Section>

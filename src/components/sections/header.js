@@ -25,11 +25,11 @@ const Header = () => {
             <h1>
               Buy now and Pay later,
               <br />
-              Use anywhere
+              Use anywhere with UPI
             </h1>
             <h2>
-              Use PayBuddy to scan any UPI QR code and pay from your assigned
-      credit limit. Register now for early access.
+              Build your credit score without a credit card, budget your expenses
+      and get rewarded for being financially responsible. Register now for early access.
             </h2>
 <HeaderForm
        name="early-access"
