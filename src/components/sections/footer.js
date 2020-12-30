@@ -9,13 +9,13 @@ const Footer = () => (
       <FooterColumn>
         <span>Company</span>
         <ul>
-          <li>About Us</li>
+          <li> <a href="privacy_policy" target="_blank"> Privacy Policy </a> </li>
         </ul>
       </FooterColumn>
       <FooterColumn>
         <span>Social</span>
         <ul>
-          <li>LinkedIn</li>
+          <li> <a href="https://www.linkedin.com/company/paybuddy-astu-technologies-pvt-ltd" target="_blank"> LinkedIn </a> </li>
         </ul>
       </FooterColumn>
     </FooterColumnContainer>
