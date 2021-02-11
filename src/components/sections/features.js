@@ -10,39 +10,27 @@ const Features = () => (
       <SectionTitle>We understand what you need</SectionTitle>
       <FeaturesGrid>
         <FeatureItem>
-          <FeatureTitle>Use Anywhere</FeatureTitle>
+          <FeatureTitle>No Awkward Reminders</FeatureTitle>
           <FeatureText>
-            Scan a QR code or use your UPI id to pay from your credit.
+            PayBuddy automates all your reminders for you. No need to ask to get paid back ever again.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Interest Free</FeatureTitle>
+          <FeatureTitle>Pay with UPI</FeatureTitle>
           <FeatureText>
-            Pay 0% interest on every timely bill payment.
+            Pay your udhaari from inside the app. No need to settle through cash or aks UPI id.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Improve Credit Score</FeatureTitle>
+          <FeatureTitle>Auto split Rent & Bills</FeatureTitle>
           <FeatureText>
-            Start improving your credit score with us from the first bill payment.
+            No need to request money for recurring expenses. Just setup your flat once and and pay only your share every month.
           </FeatureText>
         </FeatureItem>
         <FeatureItem>
-          <FeatureTitle>Seamless Onboarding</FeatureTitle>
+          <FeatureTitle>Personal Expenses</FeatureTitle>
           <FeatureText>
-            Fully digital account approval process. No paper work required.
-          </FeatureText>
-        </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>Get Rewards</FeatureTitle>
-          <FeatureText>
-            Not just better credit score, get exciting rewards on each timely bill payment.
-          </FeatureText>
-        </FeatureItem>
-        <FeatureItem>
-          <FeatureTitle>Automatic Budgeting</FeatureTitle>
-          <FeatureText>
-            Set up budgets for different categories and track them automatically with every purchase.
+            Track your personal expenses along with your group payments. Get monthly reports of what you spent, you owe and you are owed.
           </FeatureText>
         </FeatureItem>
       </FeaturesGrid>

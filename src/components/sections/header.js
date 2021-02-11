@@ -23,13 +23,13 @@ const Header = () => {
         <Flex>
           <HeaderTextGroup>
             <h1>
-              Buy now and Pay later,
+              Split expenses &
               <br />
-              Use anywhere with UPI
+              Track Udhaar
             </h1>
             <h2>
-              Build your credit score without a credit card, budget your expenses
-      and get rewarded for being financially responsible. Register now for early access.
+              Split your group expenses on the go and track all running udhaars.
+      Send automated reminders and get paid back faster with UPI.
             </h2>
 <HeaderForm
        name="early-access"
