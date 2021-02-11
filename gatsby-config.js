@@ -4,7 +4,7 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `PayBuddy: Buy now & Pay later`,
+    title: `PayBuddy: Split expenses & Track udhaar`,
     description: ``,
     author: `Astu Technologies`,
   },
