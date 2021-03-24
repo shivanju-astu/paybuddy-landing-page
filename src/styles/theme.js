@@ -23,8 +23,8 @@ const theme = {
   },
 
   color: {
-    primary: "#071435",
-    secondary: "#006db3",
+    primary: "#1b1b1b",
+    secondary: "#d1af6c",
     accent: "#cca86e",
     background: {
       white: "#ffffff",
@@ -39,7 +39,7 @@ const theme = {
     black: {
       lightest: "#ABA8AF",
       light: "#564F62",
-      regular: "#071435",
+      regular: "#1b1b1b",
     },
   },
   screen: {
