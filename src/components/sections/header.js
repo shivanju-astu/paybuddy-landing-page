@@ -31,6 +31,7 @@ const Header = () => {
               Split your group expenses on the go and track all running udhaars.
       Send automated reminders and get paid back faster with UPI.
       <br></br>
+      <br></br>
       <a href="https://chat.whatsapp.com/FOJW0Pj7uxC3BWmYU5lY93" target="_blank">Join us here </a> and get early access to all the features.
             </h2>
           </HeaderTextGroup>
