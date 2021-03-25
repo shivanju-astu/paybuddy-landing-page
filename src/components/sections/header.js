@@ -30,23 +30,9 @@ const Header = () => {
             <h2>
               Split your group expenses on the go and track all running udhaars.
       Send automated reminders and get paid back faster with UPI.
+      <br></br>
+      <a href="https://chat.whatsapp.com/FOJW0Pj7uxC3BWmYU5lY93" target="_blank">Join us here </a> and get early access to all the features.
             </h2>
-<HeaderForm
-       name="early-access"
-       method="POST"
-       data-netlify="true"
-       id="first"
-      >
-        <input type="hidden" name="form-name" value="early-access" />
-        <HeaderInput
-            type="email"
-            placeholder="Your email"
-            name="email"
-            id="email"
-            required
-        />
-        <HeaderButton type="submit">Request Early Access</HeaderButton>
-        </HeaderForm>
           </HeaderTextGroup>
           <ImageWrapper>
             <StyledImage fluid={data.file.childImageSharp.fluid} />

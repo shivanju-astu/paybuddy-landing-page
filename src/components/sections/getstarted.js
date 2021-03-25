@@ -6,23 +6,7 @@ const GetStarted = () => {
     return (
         <StyledSection>
             <GetStartedContainer>
-                <GetStartedTitle>Be the first to get the beta</GetStartedTitle>
-        <HeaderForm
-       name="early-access"
-       method="POST"
-       data-netlify="true"
-       id="second"
-      >
-        <input type="hidden" name="form-name" value="early-access" />
-          <HeaderInput
-            type="email"
-            placeholder="Your email"
-            name="email"
-            id="email"
-            required
-        />
-        <HeaderButton type="submit">Request Early Access</HeaderButton>
-        </HeaderForm>
+                <GetStartedTitle>Join our budding community <a href="https://chat.whatsapp.com/FOJW0Pj7uxC3BWmYU5lY93" target="_blank"> here </a> <br></br>and be the first to get the beta</GetStartedTitle>
             </GetStartedContainer>
         </StyledSection>
     )
